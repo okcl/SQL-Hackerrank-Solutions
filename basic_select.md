@@ -30,7 +30,7 @@ PQRS 4
 
 When ordered alphabetically, the CITY names are listed as ABC, DEF, PQRS, and WXY, with the respective lengths 3,3,4,3,3,4, and 33. The longest-named city is obviously PQRS, but there are 33 options for shortest-named city; we choose ABC, because it comes first alphabetically.
 
-**Solution**
+####**Solution**
 ```sql
 SELECT city, LENGTH(city)
 FROM station
